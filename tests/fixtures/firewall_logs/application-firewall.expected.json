@@ -1,0 +1,12 @@
+[
+  {
+    "_raw": "{\"timestamp\":\"2026-10-28 09:14:02.118334-0700\",\"messageType\":\"Default\",\"subsystem\":\"com.apple.alf\",\"category\":\"default\",\"process\":\"socketfilterfw\",\"eventMessage\":\"Allowed incoming connection for example-app\"}",
+    "index": "firewall",
+    "sourcetype": "macos:firewall"
+  },
+  {
+    "_raw": "{\"timestamp\":\"2026-10-28 09:14:05.402917-0700\",\"messageType\":\"Default\",\"subsystem\":\"com.apple.alf\",\"category\":\"default\",\"process\":\"socketfilterfw\",\"eventMessage\":\"Blocked incoming connection for example-tool\"}",
+    "index": "firewall",
+    "sourcetype": "macos:firewall"
+  }
+]
