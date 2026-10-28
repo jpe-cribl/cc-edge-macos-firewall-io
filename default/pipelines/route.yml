@@ -1,0 +1,15 @@
+id: default
+groups: {}
+comments: []
+routes:
+  - id: firewall_logs
+    name: macOS Application Firewall logs
+    final: true
+    disabled: false
+    pipeline: firewall_logs
+    description: "Sends macOS Application Firewall log events to the firewall_logs pipeline."
+    enableOutputExpression: false
+    targetContext: group
+    filter: "datatype=='macos-firewall'"
+    clones: []
+    output: __group

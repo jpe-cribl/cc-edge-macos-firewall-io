@@ -1,0 +1,10 @@
+output: default
+functions:
+  - id: eval
+    filter: "true"
+    conf:
+      add:
+        - name: index
+          value: "'firewall'"
+        - name: sourcetype
+          value: "'macos:firewall'"
