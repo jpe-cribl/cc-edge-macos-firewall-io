@@ -1,6 +1,6 @@
 {
   "name": "cc-edge-macos-firewall-io",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "minLogStreamVersion": "4.16.0",
   "author": "jpe-cribl",
   "description": "Cribl Edge pack that labels macOS Application Firewall log events with index and sourcetype.",
