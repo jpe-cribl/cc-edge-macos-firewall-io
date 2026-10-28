@@ -1,0 +1,7 @@
+# Catalog of sample events for the Cribl UI sample-data preview.
+firewall_logs:
+  sampleName: firewall_logs.json
+  description: Two synthetic macOS Application Firewall log lines, one allowed and one blocked.
+  created: 1793190461000
+  size: 516
+  numEvents: 2
